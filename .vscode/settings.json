@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "javascript.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "extensions": [".js", ".js", ".json"]
+  },
+}

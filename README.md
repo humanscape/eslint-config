@@ -1,0 +1,1 @@
+# ESLint Configurations for Humanscape
