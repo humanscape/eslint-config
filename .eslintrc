@@ -1,0 +1,17 @@
+{
+  "extends": "./index.js",
+  "rules": {
+    "quote-props": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "useTabs": false,
+        "trailingComma": "all",
+        "arrowParen": "avoid",
+        "quoteProps": "preserve"
+      }
+    ]
+  }
+}
