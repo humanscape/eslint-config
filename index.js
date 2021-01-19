@@ -1,8 +1,8 @@
 module.exports = {
   extends: ['airbnb'],
   plugins: ['react', 'react-hooks', 'react-native', 'prettier'],
-  parserOptions: {
-    ecmaVersion: 2020,
+  env: {
+    es2021: true,
   },
   rules: {
     'prettier/prettier': [
