@@ -1,6 +1,6 @@
 {
   "name": "@humanscape/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "private": false,
   "description": "All of ESLint configurations for Humanscape",
   "homepage": "https://github.com/humanscape/eslint-config",
@@ -8,11 +8,12 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://humanscape-henry@github.com/humanscape/eslint-config.git"
+    "url": "https://github.com/humanscape/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -39,6 +40,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "husky": "^4.3.8"
+    "husky": "^4.3.8",
+    "semantic-release": "^17.3.4"
   }
 }
