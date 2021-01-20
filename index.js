@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:prettier/recommended', 'prettier', 'prettier/react'],
+  extends: [
+    'airbnb',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/react',
+  ],
   plugins: ['react', 'react-hooks', 'react-native', 'prettier'],
   env: {
     es2021: true,
