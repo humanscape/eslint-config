@@ -23,6 +23,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-no-bind': 'error',
     'react/jsx-props-no-spreading': 'off',
+    'react/no-array-index-key': 'warn',
     'react/no-unused-prop-types': 'off',
     'react/no-unused-state': 'off',
     'react/prefer-stateless-function': [
@@ -33,7 +34,8 @@ module.exports = {
     ],
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
-    'react-hooks/exhaustive-deps': 'off',
+    'react/state-in-constructor': ['error', 'never'],
+    'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/html-has-lang': 'off',
@@ -47,7 +49,13 @@ module.exports = {
     'consistent-return': 'off',
     'global-require': 'off',
     'no-case-declarations': 'off',
-    'no-console': 'off',
+    'no-console': [
+      'error',
+      {
+        allow: ['warn', 'error'],
+      },
+    ],
+    'no-debugger': 'error',
     'no-extra-boolean-cast': 'off',
     'no-fallthrough': 'off',
     'no-nested-ternary': 'off',
