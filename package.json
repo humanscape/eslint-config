@@ -21,6 +21,9 @@
     "javascript",
     "typescript"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",

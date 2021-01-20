@@ -1,5 +1,8 @@
 example/
 .vscode/
 .github/
-node_modules/
-package-lock.json
+
+.eslintrc
+.huskyrc
+.commitlintrc
+.releaserc
