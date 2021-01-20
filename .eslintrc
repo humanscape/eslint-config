@@ -12,7 +12,7 @@
         "semi": true,
         "useTabs": false,
         "trailingComma": "all",
-        "arrowParen": "avoid",
+        "arrowParen": "always",
         "quoteProps": "preserve"
       }
     ]
