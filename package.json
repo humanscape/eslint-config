@@ -1,6 +1,6 @@
 {
   "name": "@humanscape/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "All of ESLint configurations for Humanscape",
   "homepage": "https://github.com/humanscape/eslint-config",
