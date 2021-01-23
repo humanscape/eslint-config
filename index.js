@@ -70,7 +70,13 @@ module.exports = {
     'no-plusplus': 'off',
     'no-restricted-syntax': 'off',
     'no-underscore-dangle': 'off',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
     'no-use-before-define': 'off',
     'no-useless-escape': 'off',
     'prefer-destructuring': 'off',
